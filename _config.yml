@@ -2,9 +2,9 @@
 menu:
   Home: /
   Archives: /archives
-linkedin: www.linkedin.com
-twitter: www.twitter.com
-github: www.github.com
+linkedin: https://www.linkedin.com
+twitter: https://www.twitter.com
+github: https://www.github.com
 rss: /atom.xml
 
 # Content
@@ -34,7 +34,6 @@ show_count: false
 google_analytics:
 gauges_analytics:
 favicon: /favicon.png
-twitter:
 google_plus:
 fb_admins:
 fb_app_id:
