@@ -31,6 +31,12 @@
         <% if (theme.github){ %>
           <a id="nav-github-link" class="nav-icon" href="<%- url_for(theme.github) %>" title="<%= __('GitHub') %>"></a>
         <% } %>
+        <% if (theme.youtube){ %>
+          <a id="nav-youtube-link" class="nav-icon" href="<%- url_for(theme.youtube) %>" title="<%= __('YouTube') %>"></a>
+        <% } %>
+        <% if (theme.email){ %>
+          <a id="nav-email-link" class="nav-icon" href="<%- mail_to(theme.email) %>" title="<%= __('Email') %>"></a>
+        <% } %>
         <a id="nav-search-btn" class="nav-icon" title="<%= __('search') %>"></a>
       </nav>
       <div id="search-form-wrap">
