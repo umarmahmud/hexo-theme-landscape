@@ -34,6 +34,9 @@
         <% if (theme.youtube){ %>
           <a id="nav-youtube-link" class="nav-icon" href="<%- url_for(theme.youtube) %>" title="<%= __('YouTube') %>"></a>
         <% } %>
+        <% if (theme.email){ %>
+          <%- mail_to('umar.mahmud@outlook.com', 'Email', {class:"nav-icon"}, {id:"nav-email-link"}) %>
+        <% } %>
         <a id="nav-search-btn" class="nav-icon" title="<%= __('search') %>"></a>
       </nav>
       <div id="search-form-wrap">

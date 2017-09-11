@@ -1,12 +1,13 @@
 # Header
 menu:
   Home: /
-  About: /about
-  Resume: /resume.pdf
+  About: /about/
+#  Resume: /resume.pdf
 linkedin: https://www.linkedin.com
 twitter: https://www.twitter.com
 github: https://www.github.com
 youtube: https://www.youtube.com
+email: umar.mahmud@outlook.com
 # rss: /atom.xml
 
 # Content
